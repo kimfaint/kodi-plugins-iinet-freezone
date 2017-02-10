@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.iinet.freezone.radio" name="iiNet Freezone Radio" version="0.0.1" provider-name="Kim Faint">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+        <import addon="script.module.requests" version="2.9.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">iiNet Group Freezone Radio Stations (provided by Internode)</summary>
+        <license>GNU General Public License, v2</license>
+        <description lang="en">Internet radio stations provided unmetered to iiNet Group (iiNet, Internode, Westnet, Netspace and Adam Internet) customers from http://freezone.iinet.net.au/#/radio</description>
+        <platform>all</platform>
+    </extension>
+</addon>
